@@ -1,0 +1,1 @@
+import{$a as i,Aa as t,Qa as n,Ra as o}from"./chunk-DT7Q4NGX.js";var r=class a{static \u0275fac=function(e){return new(e||a)};static \u0275cmp=t({type:a,selectors:[["app-galeria"]],decls:2,vars:0,template:function(e,l){e&1&&(n(0,"p"),i(1,"galeria works!"),o())},encapsulation:2})};export{r as GaleriaComponent};

@@ -1,0 +1,2 @@
+export default `:root{--font-title: "Fugaz One", cursive;--font-body: "Exo 2", sans-serif ;--font-p: "Glass Antiqua",regular;--font-riso: "Italianno", regular}body{font-family:var(--font-body);font-size:50;font-weight:400}h1{font-family:var(--font-title);font-size:300px}h2{font-family:var(--font-title);font-size:medium}p{font-family:var(--font-p);font-size:60px;line-height:50px}
+`;

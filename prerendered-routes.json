@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "/RISO-WEB": {},
+    "/RISO-WEB/contacto": {},
+    "/RISO-WEB/galeria": {},
+    "/RISO-WEB/que-es": {},
+    "/RISO-WEB/talleres": {},
+    "/RISO-WEB/welcome": {}
+  }
+}
