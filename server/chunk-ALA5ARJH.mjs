@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{Ra as n,Sa as t,ab as i,za as a}from"./chunk-CAZ32WCN.mjs";import"./chunk-T55IDOPT.mjs";var c=class o{static \u0275fac=function(e){return new(e||o)};static \u0275cmp=a({type:o,selectors:[["app-inicio"]],decls:5,vars:0,consts:[[1,"hero"]],template:function(e,s){e&1&&(n(0,"section",0)(1,"h1"),i(2,"Risograf\xEDa"),t(),n(3,"p"),i(4," Una t\xE9cnica de impresi\xF3n, viable y experimental. "),t()())},styles:[".hero[_ngcontent-%COMP%]{padding:4rem;text-align:center}h1[_ngcontent-%COMP%]{font-size:3rem}"]})};export{c as InicioComponent};
