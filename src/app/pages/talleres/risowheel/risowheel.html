@@ -1,0 +1,17 @@
+<div class="pointer">▼</div>
+
+<div class="wheel-container"
+     (mousedown)="startDrag($event)"
+     (mousemove)="drag($event)"
+     (mouseup)="endDrag()"
+     (mouseleave)="endDrag()">
+  <div class="wheel" [style.transform]="'rotate(' + rotation + 'deg)'">
+    @for (slice of slices; let i = $index; track slice) {
+      <div class="slice"
+           [style.background]="slice.color"
+           [style.transform]="'rotate(' + (i * sliceAngle) + 'deg)'">
+        <span>{{ slice.label }}</span>
+      </div>
+    }
+  </div>
+</div>

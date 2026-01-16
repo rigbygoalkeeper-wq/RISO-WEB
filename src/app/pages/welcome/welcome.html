@@ -1,0 +1,18 @@
+<div class="video-background">
+  <video autoplay muted loop>
+    <source src="/riso.mp4" type="video/mp4">
+    Tu navegador no soporta video en HTML5.
+  </video>
+</div>
+
+
+<form class="welcome" (ngSubmit)="submit()">
+  <h1 class="title">Bienvenido</h1>
+  <input 
+    type="text" 
+    [(ngModel)]="name" 
+    [ngModelOptions]="{standalone: true}" 
+    placeholder="Tu nombre" 
+  />
+
+</form>
